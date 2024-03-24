@@ -1,0 +1,21 @@
+{
+  "name": "vxe-commerce",
+  "version": "1.0.0",
+  "description": "-- Criar tabela de Endereços\r CREATE TABLE Enderecos (\r     address_id INT AUTO_INCREMENT PRIMARY KEY,\r     rua VARCHAR(255) NOT NULL,\r     cidade VARCHAR(255) NOT NULL,\r     estado VARCHAR(100) NOT NULL,\r     país VARCHAR(100) NOT NULL,\r     cep VARCHAR(20) NOT NULL,\r     telefone VARCHAR(20) NOT NULL\r );",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file .env src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1",
+    "mysql2": "^3.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
